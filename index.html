@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/global.css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__right">
+        <a href="#">Gmail</a>
+        <a href="#">Gambar</a>
+        <a href="#">
+          <span class="material-icons">apps</span>
+        </a>
+        <a href="#">
+          <span class="material-icons">account_circle</span>
+        </a>
+      </div>
+    </header>
+
+    <section>
+      <div class="feature">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="Google"
+        />
+        <div class="search">
+          <div class="search__input">
+            <span class="material-icons searchIcons" onclick="search()"
+              >search</span
+            >
+            <input id="searchInput" />
+            <span class="material-icons photo">photo_camera</span>
+          </div>
+          <div class="search__action">
+            <button onclick="search()">Penelusuran Google</button>
+            <button>Apa yang sedang kamu pikirkan?</button>
+          </div>
+          <div class="language">
+            <div>
+              Google tersedia dalam bahasa :
+              <a href="#english">English</a>
+              <a href="#indonesia">Indonesia</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>
